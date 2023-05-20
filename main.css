@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.geral{
+    background-color: gray;
+    border-radius: 10px;
+}
+
+.resultado{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 20px;
+    width: 163px;
+}
+
+.botao{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.tamanho{
+    height: 45px;
+    width: 35px;
+    border-radius: 5px;
+}
+
+.cor{
+    background-color: orange;
+}
+
